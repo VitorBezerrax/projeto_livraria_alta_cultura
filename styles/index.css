@@ -1,0 +1,103 @@
+
+body{
+    background-color: rgba(87, 45, 12);
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: title ;
+    src: url(/assets/fonts/Tomorrow/Tomorrow-Bold.ttf);
+}
+
+div#barra{
+    margin: 0 auto;
+    height: 80px;
+    width: 1500px;
+    margin-left: -75px;
+    background-color: rgba(57, 37, 11);
+    margin-top: -70px;
+}
+
+nav#menu ul{
+display: block;
+list-style: none;
+
+}
+
+nav#menu li{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    left: 980px;
+    top: -65px;   
+
+}
+
+nav#menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu li a:hover{
+    transition: 1s;
+    text-decoration: underline;
+}
+
+nav#menu h3{
+display: none;
+
+}
+
+h2{
+    color: white;
+    font-weight: bolder;
+    margin-left: 90px;
+}
+
+img#books{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+}
+
+img#foto1{
+    position: relative;
+    width: 900px;
+    height: 420px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+
+div#folder{
+    margin-left: 250px;
+    margin-top: -10px;
+    background-color: #2D2111;
+    height: 390px;
+    width: 900px;
+    border-radius: 5px;
+}
+
+div#folder h1{
+color: white;
+margin-left: 10px;
+}
+
+div#card1{
+background: rgba(45, 33, 17, 0.55);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+backdrop-filter: blur (2px);
+border-radius: 8px;
+height: 300px;
+width: 200px;
+margin-left: 30px;
+}
+
+ h3#ojardim{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    top: ;
+}
+
