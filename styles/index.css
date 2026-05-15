@@ -10,23 +10,27 @@ body{
 }
 
 #carouselExampleIndicators .carousel-item img{
+    
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
+    margin-top: 10px;
     
 }
 
 h2{
+    position: relative;
     color: white;
     font-weight: bolder;
     margin-left: 90px;
+    top: 10px;
 }
 
 img#books{
     position: absolute;
     width: 80px;
     height: 80px;
-    margin-top: -80px;
+    margin-top: -60px;
 }
 
 
@@ -36,26 +40,21 @@ div#barra{
     width: 1500px;
     margin-left: -75px;
     background-color: rgba(57, 37, 11);
-    margin-top: -70px;
+    margin-top: -60px;
 }
 
 nav#menu ul{
 display: block;
 list-style: none;
-
 }
 
-nav#menu h3{
-display: none;
-
-}
 
 nav#menu li{
     position: relative;
     display: inline-block;
     margin-right: 20px;
-    left: 980px;
-    top: -65px;   
+    right: -1100px;
+    top: 35px;   
 
 }
 
@@ -72,8 +71,9 @@ nav#menu li a:hover{
 
 
 div#folder{
+    position: relative;
     margin-left: 250px;
-    margin-top: -10px;
+    margin-top: -580px;
     background-color: #2D2111;
     height: 390px;
     width: 900px;
@@ -87,13 +87,24 @@ margin-top: 590px;
 }
 
 div#card1{
+    position: relative;
 background: rgba(45, 33, 17, 0.55);
 box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
 backdrop-filter: blur (2px);
 border-radius: 8px;
 height: 300px;
 width: 200px;
-margin-left: 30px;
+margin-left: 280px;
+margin-top: -320px;
+}
+
+div#card1 img { 
+    position: relative;
+    width: 180px;
+    height: 240px;
+    margin-top: 5px;
+    margin-left: 10px;
+
 }
 
 
