@@ -1,14 +1,33 @@
-
 body{
-    background-color: rgba(87, 45, 12);
+    background-color: rgba(87, 45, 12, 1);
     overflow-x: hidden;
     max-width: 100%;
 }
 
-@font-face {
-    font-family: title ;
-    src: url(/assets/fonts/Tomorrow/Tomorrow-Bold.ttf);
+#carouselExampleIndicators{
+    max-width: 800px;
+    margin: 0 auto;
 }
+
+#carouselExampleIndicators .carousel-item img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h2{
+    color: white;
+    font-weight: bolder;
+    margin-left: 90px;
+}
+
+img#books{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+}
+
 
 div#barra{
     margin: 0 auto;
@@ -22,6 +41,11 @@ div#barra{
 nav#menu ul{
 display: block;
 list-style: none;
+
+}
+
+nav#menu h3{
+display: none;
 
 }
 
@@ -42,33 +66,9 @@ nav#menu li a{
 nav#menu li a:hover{
     transition: 1s;
     text-decoration: underline;
+    color: yellow;
 }
 
-nav#menu h3{
-display: none;
-
-}
-
-h2{
-    color: white;
-    font-weight: bolder;
-    margin-left: 90px;
-}
-
-img#books{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    margin-top: -80px;
-}
-
-img#foto1{
-    position: relative;
-    width: 900px;
-    height: 420px;
-    margin-left: 250px;
-    margin-top: -40px;
-}
 
 div#folder{
     margin-left: 250px;
@@ -82,6 +82,7 @@ div#folder{
 div#folder h1{
 color: white;
 margin-left: 10px;
+margin-top: 590px;
 }
 
 div#card1{
@@ -94,15 +95,8 @@ width: 200px;
 margin-left: 30px;
 }
 
- h3#ojardim{
-    position: relative;
-    font-size: 20px;
-    color: white;
-    top: ;
+
+@font-face {
+    font-family: title ;
+    src: url(/assets/fonts/Tomorrow/Tomorrow-Bold.ttf);
 }
-
-
-
-<!--bot css-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
