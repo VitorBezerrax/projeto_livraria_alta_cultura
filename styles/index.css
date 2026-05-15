@@ -12,7 +12,8 @@ body{
 #carouselExampleIndicators .carousel-item img{
     height: 400px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 10px;
+    
 }
 
 h2{
