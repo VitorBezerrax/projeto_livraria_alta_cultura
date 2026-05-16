@@ -49,6 +49,7 @@ nav#menu li a:hover{
 
 h1 {
     text-align: center;
+    color: grey;
   }
   .search-container {
     max-width: 400px;
@@ -70,48 +71,82 @@ h1 {
   }
   
   .card-products {
-    display: inline-block;
+   background: rgba(255,255,255,0.05);
+
+    border-radius: 20px;
+
+    padding: 20px;
+
     text-align: center;
-    margin: 0 30px;
+
+    transition: 0.3s;
+
+    backdrop-filter: blur(5px);
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+
   }
+
+  .card-products:hover{
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+
+}
   
   .card-products img {
-    height: 180px;
+       width: 180px;
+
+    height: 270px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
   }
   
-  .card-products h3,
-  .card-products .price {
-    margin-top: 10px;
-  }
-  
-  .card-products button {
-    border: none;
-    outline: 0;
-    padding: 10px;
+.card-products h3:hover{
     color: white;
-    background-color: #1bcb7f;
-    text-align: center;
-    cursor: pointer;
-    width: 80%;
-    font-size: 15px;
-  }
+    margin-top: 15px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+
+}
+
+
+
   
   .emoji-buttons-container {
     text-align: center;
   }
 
+
+  /* parte de estilizar o botão dos nomes dos autores */
   .emoji-button {
-    background-color: #1bcb7f;
-    color: white;
+     background-color: rgb(100, 109, 208);
+     border-radius: 10px;
+    color: black;
     font-size: 30px;
     border: none;
-    outline: none;
+    
     padding: 10px;
     margin: 10px;
   }
   
   /* Hover effect */
   .emoji-button:hover {
-    background-color: #17a366;
+    background-color: #ffffff;
+    text-decoration: underline;
     cursor:pointer;
+  }
+
+  #shopContent{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 50px 180px;
+      width: 90%;
+    
+    margin-top: 40px;
+    margin-left: 80px;
   }
