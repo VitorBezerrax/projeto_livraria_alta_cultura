@@ -20,15 +20,6 @@ img#books{
 }
 
 
-div#barra{
-    margin: 0 auto;
-    height: 80px;
-    width: 1500px;
-    margin-left: -75px;
-    background-color: rgba(57, 37, 11);
-    margin-top: -60px;
-}
-
 nav#menu ul{
 display: block;
 list-style: none;
@@ -55,62 +46,72 @@ nav#menu li a:hover{
     color: yellow;
 }
 
-div#coluna{
-    background-color: rgba(58, 23, 5, 0.65);
-     backdrop-filter: blur(3px);
-    width: 1410px;
-    height: 10px;
-}
 
-
-div#barrablack{
-    width: 3px ;
-    height: 650px;
-    background-color: black;
-    margin-left: 190px;
-    margin-top: 20px;
-}
-
-div#barrablack li{
-    position: relative;
-    list-style: none;
-    margin-left: -160px;
-    margin-top: 22px;
-    top: 30px;
-    
-
-}
-
-div#barrablack a{
-text-decoration: none;
-color: white;
-}
-
-
-div#interface {
-    background-color: #8B5A2B;
-    height: 740px;
-    width: 180px;
-    margin-top: -680px;
-    border-radius: 10px;
-}
-
-div#interface h3{
-    margin-left: 55px;
-}
-
-div#interface li{
-list-style: none;
-padding: 10px;
-
-}
-
-div#interface a{
-    text-decoration: none;
+h1 {
+    text-align: center;
+  }
+  .search-container {
+    max-width: 400px;
+    margin: 0vh auto;
+    padding: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #646363;
+    border-radius: 8px;
+    outline: none;
+  }
+  .card-products-container {
+    margin: 10vh auto;
+    text-align: center;
+  }
+  
+  .card-products {
+    display: inline-block;
+    text-align: center;
+    margin: 0 30px;
+  }
+  
+  .card-products img {
+    height: 180px;
+  }
+  
+  .card-products h3,
+  .card-products .price {
+    margin-top: 10px;
+  }
+  
+  .card-products button {
+    border: none;
+    outline: 0;
+    padding: 10px;
     color: white;
-}
+    background-color: #1bcb7f;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    font-size: 15px;
+  }
+  
+  .emoji-buttons-container {
+    text-align: center;
+  }
 
-div#interface a:hover{
-    transition: 1s;
-    text-decoration: underline;
-}
+  .emoji-button {
+    background-color: #1bcb7f;
+    color: white;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  /* Hover effect */
+  .emoji-button:hover {
+    background-color: #17a366;
+    cursor:pointer;
+  }
