@@ -38,7 +38,7 @@ div#barra{
     margin: 0 auto;
     height: 80px;
     width: 1500px;
-    margin-left: -75px;
+    margin-left: -40px;
     background-color: rgba(57, 37, 11);
     margin-top: -60px;
 }
@@ -52,9 +52,9 @@ list-style: none;
 nav#menu li{
     position: relative;
     display: inline-block;
-    margin-right: 20px;
-    right: -1100px;
-    top: 35px;   
+    left: 1100px;
+    padding: 15px;
+    top: 20px;   
 
 }
 
@@ -87,7 +87,7 @@ margin-top: 590px;
 }
 
 div#card1{
-    position: relative;
+position: relative;
 background: rgba(45, 33, 17, 0.55);
 box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
 backdrop-filter: blur (2px);
@@ -111,20 +111,166 @@ div#card1 li{
     font-size: 15px;
     margin-left: 35px;
     margin-top: 5px;
-    
+    list-style: none;
 }
+
+div#card1 a{
+    text-decoration: none;
+    color: white;
+}
+
 
 div#card1 a:hover{
     transition: 1s;
+    text-decoration: underline;
+    color: dodgerblue;
    
 }
-
 
 div#card1 p{
 color: gray;
 font-size: 10px;
 margin-left: 55px;
 }
+
+div#card2{
+ position: relative;
+ width: 200px;
+ height: 300px;
+ margin-left: 490px;
+ margin-top: -300px;
+ background: rgba(45, 33, 17, 0.55);
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+ backdrop-filter: blur (2px);
+ border-radius: 8px;
+}
+
+div#card2 img{
+    height: 240px;
+    width: 180px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+div#card2 li{
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 5px;
+    list-style: none;
+    
+}
+
+div#card2 a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+div#card2 a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+div#card2 p{
+color: gray;
+font-size: 10px;
+margin-top: -1px;
+margin-left: 70px;
+}
+
+div#card3{
+ position: relative;
+ width: 200px;
+ height: 300px;
+ margin-left: 700px ;
+ margin-top: -300px ;
+ background: rgba(45, 33, 17, 0.55);
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+ backdrop-filter: blur (2px);
+ border-radius: 8px;
+
+}
+
+
+div#card3 img{
+    width: 180px;
+    height: 240px;
+    margin-left: 10px ;
+    margin-top: 5px ;
+}
+
+
+div#card3 li{
+    font-size: 15px;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+div#card3 a{
+    text-decoration: none;
+    color: white;
+}
+div#card3 a:hover{
+    transition: 1s;
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+div#card3 p{
+    color: gray;
+   font-size: 10px;
+   margin-left: 55px;
+}
+
+div#card4 {
+position: relative;
+background: rgba(45, 33, 17, 0.55);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+backdrop-filter: blur (2px);
+border-radius: 8px;
+height: 300px;
+width: 200px;
+margin-left: 910px;
+margin-top: -300px;
+
+}
+
+div#card4 img{
+    width: 180px;
+    height: 240px;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+div#card4 li{
+    font-size: 15px;
+    list-style: none;
+    margin-left: 25px;
+    margin-top: 5px ;
+}
+
+div#card4 a{
+    text-decoration: none;
+    color: white;
+}
+
+div#card4 a:hover{
+    transition: 1s;
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+div#card4 p{
+color: gray;
+font-size: 10px;
+margin-left: 75px;
+margin-top: ;
+
+}
+
 
 @font-face {
     font-family: title ;
