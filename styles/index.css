@@ -107,8 +107,45 @@ div#card1 img {
 
 }
 
+div#card1 li{
+    font-size: 15px;
+    margin-left: 35px;
+    margin-top: 5px;
+    
+}
+
+div#card1 a:hover{
+    transition: 1s;
+   
+}
+
+
+div#card1 p{
+color: gray;
+font-size: 10px;
+margin-left: 55px;
+}
 
 @font-face {
     font-family: title ;
     src: url(/assets/fonts/Tomorrow/Tomorrow-Bold.ttf);
+}
+
+footer#rodape p{
+margin-top: 40px;
+}
+
+ div#footer{
+   background-color: rgba(57, 37, 11);
+   width: 1450px;
+   height: 60px;
+   margin-top: 50px;
+}
+
+div#footer p{
+    position: relative;
+    color: white;
+    margin-left: 500px;
+    margin-top: -20px;
+    top: 15px;
 }

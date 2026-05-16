@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(87, 45, 12, 1);
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+h2{
+    position: relative;
+    color: white;
+    font-weight: bolder;
+    margin-left: 90px;
+    top: 10px;
+}
+
+img#books{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: -60px;
+}
+
+
+div#barra{
+    margin: 0 auto;
+    height: 80px;
+    width: 1500px;
+    margin-left: -75px;
+    background-color: rgba(57, 37, 11);
+    margin-top: -60px;
+}
+
+nav#menu ul{
+display: block;
+list-style: none;
+}
+
+
+nav#menu li{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    right: -1100px;
+    top: 35px;   
+
+}
+
+nav#menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu li a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    color: yellow;
+}
+
+div#coluna{
+    background-color: rgba(58, 23, 5, 0.65);
+     backdrop-filter: blur(3px);
+    width: 1410px;
+    height: 10px;
+}
+
+
+div#barrablack{
+    width: 3px ;
+    height: 650px;
+    background-color: black;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+div#barrablack li{
+    position: relative;
+    list-style: none;
+    margin-left: -160px;
+    margin-top: 22px;
+    top: 30px;
+    
+
+}
+
+div#barrablack a{
+text-decoration: none;
+color: white;
+}
+
+
+div#interface {
+    background-color: #8B5A2B;
+    height: 740px;
+    width: 180px;
+    margin-top: -680px;
+    border-radius: 10px;
+}
+
+div#interface h3{
+    margin-left: 55px;
+}
+
+div#interface li{
+list-style: none;
+padding: 10px;
+
+}
+
+div#interface a{
+    text-decoration: none;
+    color: white;
+}
+
+div#interface a:hover{
+    transition: 1s;
+    text-decoration: underline;
+}
