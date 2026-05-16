@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(87, 45, 12, 1);
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+header#cabecalho  h2{
+position: relative;
+top: 15px;
+left: 110px;
+color: white;
+font-weight: bolder;
+}
+
+
+
+img#books{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 25px;
+    margin-top: -70px;
+}
+
+
+div#barra{
+    margin: 0 auto;
+    height: 80px;
+    width: 1500px;
+    margin-left: -40px;
+    background-color: rgba(57, 37, 11);
+    margin-top: -60px;
+}
+
+nav#menu ul{
+display: block;
+list-style: none;
+}
+
+
+nav#menu li{
+    position: relative;
+    display: inline-block;
+    left: 1120px;
+    padding: 15px;
+    top: 20px;   
+
+}
+
+nav#menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu li a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    color: yellow;
+}
+
+div#vitor p{
+    color: white;
+}

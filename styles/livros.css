@@ -8,16 +8,27 @@ h2{
     position: relative;
     color: white;
     font-weight: bolder;
-    margin-left: 90px;
-    top: 10px;
+    margin-left: 130px;
+    top: 20px;
 }
 
 img#books{
     position: absolute;
     width: 80px;
     height: 80px;
+    margin-left: 45px;
     margin-top: -60px;
 }
+
+div#barra{
+    margin: 0 auto;
+    height: 80px;
+    width: 1500px;
+    margin-left: -40px;
+    background-color: rgba(57, 37, 11);
+    margin-top: -60px;
+}
+
 
 
 nav#menu ul{
@@ -29,9 +40,9 @@ list-style: none;
 nav#menu li{
     position: relative;
     display: inline-block;
-    margin-right: 20px;
-    right: -1100px;
-    top: 35px;   
+    left: 1100px;
+    padding: 15px;
+    top: 20px;   
 
 }
 
@@ -50,6 +61,8 @@ nav#menu li a:hover{
 h1 {
     text-align: center;
     color: grey;
+    margin-top: 40px;
+
   }
   .search-container {
     max-width: 400px;
@@ -71,19 +84,16 @@ h1 {
   }
   
   .card-products {
-   background: rgba(255,255,255,0.05);
-
-    border-radius: 20px;
-
-    padding: 20px;
-
-    text-align: center;
-
-    transition: 0.3s;
-
-    backdrop-filter: blur(5px);
-
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+   position: relative;
+   background: rgba(255, 255, 255, 0.05);
+   color: white;
+   border-radius: 20px;
+   padding: 20px;
+   text-align: center;
+   transition: 0.3s;
+   backdrop-filter: blur(5px);
+   box-shadow: 0 0 20px rgba(0,0,0,0.3);
+   top: -60px;
 
   }
 
@@ -114,8 +124,11 @@ h1 {
 
 }
 
-
-
+.card-products p{
+  color: gray;
+  font-size: 15px;
+  margin-top: -20px;
+}
   
   .emoji-buttons-container {
     text-align: center;
@@ -124,14 +137,19 @@ h1 {
 
   /* parte de estilizar o botão dos nomes dos autores */
   .emoji-button {
-     background-color: rgb(100, 109, 208);
+     background-color: rgba(255, 255, 255, 0.027);
+     backdrop-filter: blur(8px);
+     border-top: 1px solid rgba(255, 255, 255, 0.4);
+     border-left: 1px solid rgba(255, 255, 255, 0.3);
+     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
      border-radius: 10px;
     color: black;
     font-size: 30px;
     border: none;
-    
     padding: 10px;
     margin: 10px;
+   margin-top: -5px;
+
   }
   
   /* Hover effect */
@@ -144,9 +162,28 @@ h1 {
   #shopContent{
     display: grid;
      grid-template-columns: repeat(3, 1fr);
-     gap: 50px 180px;
+     gap: 20px 120px;
       width: 90%;
     
     margin-top: 40px;
     margin-left: 80px;
   }
+
+  footer#rodape p{
+margin-top: 40px;
+}
+
+ div#footer{
+   background-color: rgba(57, 37, 11);
+   width: 1450px;
+   height: 60px;
+   margin-top: -20px;
+}
+
+div#footer p{
+    position: relative;
+    color: white;
+    margin-left: 500px;
+    margin-top: -20px;
+    top: 15px;
+}
