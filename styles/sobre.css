@@ -4,16 +4,14 @@ body{
     max-width: 100%;
 }
 
-
 header#cabecalho  h2{
 position: relative;
-top: 15px;
-left: 110px;
-color: white;
+    margin-left: 130px;
+top: 10px;
 font-weight: bolder;
+color: white;
+
 }
-
-
 
 img#books{
     position: absolute;
@@ -22,7 +20,6 @@ img#books{
     margin-left: 25px;
     margin-top: -70px;
 }
-
 
 div#barra{
     margin: 0 auto;
@@ -38,14 +35,12 @@ display: block;
 list-style: none;
 }
 
-
 nav#menu li{
     position: relative;
     display: inline-block;
     left: 1120px;
     padding: 15px;
     top: 20px;   
-
 }
 
 nav#menu li a{
@@ -62,9 +57,6 @@ nav#menu li a:hover{
 hgroup h1{
     color: white;
 }
-
-
-
 
 p{
     color: white;
@@ -109,5 +101,63 @@ div#vitor a:hover{
 
 div#vitor p{
     color: rgb(0, 0, 0);
+    margin-left: 25px;
+}
+
+div#ryan{
+ background-color: rgba(57, 37, 11);
+   width: 280px;
+   border-radius: 8px;
+   height: 350px;
+   margin-left: 1010px;
+   margin-top: -350px;
+
+}
+
+div#ryan img{
+ width: 270px;
+ height: 260px;
+ border-radius: 5px;
+ margin-top: 8px;
+ margin-left: 5px;
+}
+
+div#ryan h2{
+    margin-left: 110px;
+    margin-top: 5px;
+}
+
+div#ryan a{
+    text-decoration: none;
+    color: white;
+}
+
+div#ryan a:hover{
+    transition: 1s;
+    text-decoration: underline;
+}
+
+div#ryan p{
+    color: black;
     margin-left: 15px;
+    
+}
+
+footer#rodape p{
+margin-top: 40px;
+}
+
+ div#footer{
+   background-color: rgba(57, 37, 11);
+   width: 1450px;
+   height: 60px;
+   margin-top: 50px;
+}
+
+div#footer p{
+    position: relative;
+    color: white;
+    margin-left: 500px;
+    margin-top: -20px;
+    top: 15px;
 }
