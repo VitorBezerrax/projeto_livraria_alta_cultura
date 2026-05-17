@@ -119,6 +119,7 @@ const filterProducts = (category) => {
   displayProducts(productsToShow)
 }
 
+const todosBtn = document.getElementById("todosBtn");
 const nasserBtn = document.getElementById('nasserBtn');
 const brunaBtn = document.getElementById('brunaBtn');
 const falconBtn = document.getElementById('falconBtn');
@@ -138,6 +139,10 @@ falconBtn.addEventListener('click', () => {
 
 olavoBtn.addEventListener('click', () => {
   filterProducts('olavo')
+});
+
+todosBtn.addEventListener('click', () => {
+  displayProducts(products);
 });
 
 displayProducts(products)
