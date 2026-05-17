@@ -59,6 +59,55 @@ nav#menu li a:hover{
     color: yellow;
 }
 
-div#vitor p{
+hgroup h1{
     color: white;
+}
+
+
+
+
+p{
+    color: white;
+}
+
+
+
+div#vitor {
+    background-color: rgba(57, 37, 11);
+   width: 280px;
+   border-radius: 8px;
+   height: 350px;
+   margin-top: -180px;
+   margin-left: 710px;
+
+   
+}
+
+div#vitor img{
+ width: 270px;
+ height: 260px;
+border-radius: 5px;
+margin-left: 5px;
+margin-top: 10px;
+
+}
+
+div#vitor h2{
+    margin-left: 105px;
+    margin-top: 5px;
+}
+
+div#vitor a{
+    text-decoration: none;
+    color: white;
+}
+
+div#vitor a:hover{
+    transition: 1s;
+    text-decoration: underline;
+}
+
+div#vitor p{
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
 }
