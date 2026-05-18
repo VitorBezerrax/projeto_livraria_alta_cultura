@@ -104,6 +104,7 @@ const displayProducts = (productsToShow) => {
   productsToShow.forEach(product => {
     const div = document.createElement("div")
     div.className = 'card-products'
+    div.style.cursor = 'pointer'
     div.innerHTML = `
       <img src="${product.img}" alt="algun-alt">
       <h3>${product.title}</h3>
@@ -124,6 +125,12 @@ const nasserBtn = document.getElementById('nasserBtn');
 const brunaBtn = document.getElementById('brunaBtn');
 const falconBtn = document.getElementById('falconBtn');
 const olavoBtn = document.getElementById('olavoBtn');
+
+[todosBtn, nasserBtn, brunaBtn, falconBtn, olavoBtn].forEach((btn) => {
+  if (btn) {
+    btn.style.cursor = 'pointer';
+  }
+});
 
 nasserBtn.addEventListener('click', () => {
   filterProducts('nasser');

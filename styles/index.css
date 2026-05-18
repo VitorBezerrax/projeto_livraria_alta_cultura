@@ -59,6 +59,7 @@ nav#menu li{
 nav#menu li a{
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 nav#menu li a:hover{
@@ -115,6 +116,7 @@ div#card1 li{
 div#card1 a{
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 
@@ -158,7 +160,8 @@ div#card2 li{
 
 div#card2 a{
   text-decoration: none;
-  color: white;  
+  color: white;
+  cursor: pointer;
 }
 
 div#card2 a:hover{
@@ -203,6 +206,7 @@ div#card3 li{
 div#card3 a{
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 div#card3 a:hover{
@@ -246,6 +250,7 @@ div#card4 li{
 div#card4 a{
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 div#card4 a:hover{

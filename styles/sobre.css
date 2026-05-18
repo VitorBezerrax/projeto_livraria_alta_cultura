@@ -4,7 +4,14 @@ body{
     max-width: 100%;
 }
 
-header#cabecalho  h2{
+header#cabecalho,
+header#cabecalho *,
+div#footer,
+div#footer * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h2{
     position: relative;
     margin-left: 130px;
     top: 10px;
@@ -16,8 +23,8 @@ img#books{
     position: absolute;
     width: 80px;
     height: 80px;
-    margin-left: 25px;
-    margin-top: -70px;
+    margin-left: 45px;
+    margin-top: -60px;
 }
 
 div#barra{
@@ -45,6 +52,7 @@ nav#menu li{
 nav#menu li a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 nav#menu li a:hover{
@@ -93,6 +101,7 @@ div#vitor h2{
 div#vitor a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 div#vitor a:hover{
@@ -135,6 +144,7 @@ div#ryan h2{
 div#ryan a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 div#ryan a:hover{
@@ -160,6 +170,6 @@ div#footer p{
     position: relative;
     color: white;
     margin-left: 500px;
-    margin-top: 270px;
+    margin-top: -20px;
     top: 15px;
 }
