@@ -1,5 +1,5 @@
   # 📚Projeto - Livraria Alta Cultura
-**Autor**: Vitor Higor de Lima Bezerra
+**Autor**: Vitor Higor de Lima Bezerra  
 **Coautor**: Ryan Gabriel Costa
 
 # Sobre o Projeto - Livraria Alta Cultura
