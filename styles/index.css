@@ -19,10 +19,12 @@ body{
 
 h2{
   position: relative;
-  color: white;
-  font-weight: bolder;
-  margin-left: 130px;
-  top: 10px;
+    margin-left: 130px;
+    margin-top: 10px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
 }
 
 img#books{

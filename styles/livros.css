@@ -12,12 +12,13 @@ div#footer * {
 }
 
 h2{
-    
+    position: relative;
     color: white;
     font-weight: bolder;
     margin-left: 130px;
     margin-top: -10px;
     font-size: 25px;
+    top: 20px;
 }
 
 
@@ -174,10 +175,13 @@ h1 {
 }
 
  div#footer{
-   background-color: rgba(57, 37, 11);
-   width: 1450px;
-   height: 80px;
-   margin-top: 20px;
+  position: relative;
+  background-color: rgba(57, 37, 11);
+  width: 1450px;
+  height: 60px;
+  margin-top: 100px;
+  margin-left: -20px;
+  top: 10px;
 }
 
 div#footer p{
