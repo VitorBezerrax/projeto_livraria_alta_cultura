@@ -1,275 +1,263 @@
 body{
-    background-color: rgba(87, 45, 12, 1);
-    overflow-x: hidden;
-    max-width: 100%;
+  background-color: rgba(87, 45, 12, 1);
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 #carouselExampleIndicators{
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 #carouselExampleIndicators .carousel-item img{
-    
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-top: 10px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
     
 }
 
 h2{
-    position: relative;
-    color: white;
-    font-weight: bolder;
-    margin-left: 130px;
-    top: 10px;
+  position: relative;
+  color: white;
+  font-weight: bolder;
+  margin-left: 130px;
+  top: 10px;
 }
 
 img#books{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    margin-left: 45px;
-    margin-top: -60px;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 45px;
+  margin-top: -60px;
 }
 
-
 div#barra{
-    margin: 0 auto;
-    height: 80px;
-    width: 1500px;
-    margin-left: -40px;
-    background-color: rgba(57, 37, 11);
-    margin-top: -60px;
+  margin: 0 auto;
+  height: 80px;
+  width: 1500px;
+  margin-left: -40px;
+  background-color: rgba(57, 37, 11);
+  margin-top: -60px;
 }
 
 nav#menu ul{
-display: block;
-list-style: none;
+  display: block;
+  list-style: none;
 }
 
 
 nav#menu li{
-    position: relative;
-    display: inline-block;
-    left: 1120px;
-    padding: 15px;
-    top: 20px;   
-
+  position: relative;
+  display: inline-block;
+  left: 1120px;
+  padding: 15px;
+  top: 20px;   
 }
 
 nav#menu li a{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 nav#menu li a:hover{
-    transition: 1s;
-    text-decoration: underline;
-    color: yellow;
+  transition: 1s;
+  text-decoration: underline;
+  color: yellow;
 }
 
 
 div#folder{
-    position: relative;
-    margin-left: 250px;
-    margin-top: -580px;
-    background-color: #2D2111;
-    height: 390px;
-    width: 900px;
-    border-radius: 5px;
+  position: relative;
+  margin-left: 250px;
+  margin-top: -580px;
+  background-color: #2D2111;
+  height: 390px;
+  width: 900px;
+  border-radius: 5px;
 }
 
 div#folder h1{
-color: white;
-margin-left: 10px;
-margin-top: 590px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 590px;
 }
 
 div#card1{
-position: relative;
-background: rgba(45, 33, 17, 0.55);
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
-backdrop-filter: blur (2px);
-border-radius: 8px;
-height: 300px;
-width: 200px;
-margin-left: 280px;
-margin-top: -320px;
+  position: relative;
+  background: rgba(45, 33, 17, 0.55);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur (2px);
+  border-radius: 8px;
+  height: 300px;
+  width: 200px;
+  margin-left: 280px;
+  margin-top: -320px;
 }
 
 div#card1 img { 
-    position: relative;
-    width: 180px;
-    height: 240px;
-    margin-top: 5px;
-    margin-left: 10px;
+  position: relative;
+  width: 180px;
+  height: 240px;
+  margin-top: 5px;
+  margin-left: 10px;
 
 }
 
 div#card1 li{
-    font-size: 15px;
-    margin-left: 35px;
-    margin-top: 5px;
-    list-style: none;
+  font-size: 15px;
+  margin-left: 35px;
+  margin-top: 5px;
+  list-style: none;
 }
 
 div#card1 a{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 
 div#card1 a:hover{
-    transition: 1s;
-    text-decoration: underline;
-    color: dodgerblue;
-   
+  transition: 1s;
+  text-decoration: underline;
+  color: dodgerblue; 
 }
 
 div#card1 p{
-color: gray;
-font-size: 10px;
-margin-left: 55px;
+  color: gray;
+  font-size: 10px;
+  margin-left: 55px;
 }
 
 div#card2{
- position: relative;
- width: 200px;
- height: 300px;
- margin-left: 490px;
- margin-top: -300px;
- background: rgba(45, 33, 17, 0.55);
- box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
- backdrop-filter: blur (2px);
- border-radius: 8px;
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin-left: 490px;
+  margin-top: -300px;
+  background: rgba(45, 33, 17, 0.55);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur (2px);
+  border-radius: 8px;
 }
 
 div#card2 img{
-    height: 240px;
-    width: 180px;
-    margin-top: 5px;
-    margin-left: 10px;
+  height: 240px;
+  width: 180px;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
 div#card2 li{
-    font-size: 15px;
-    margin-left: 25px;
-    margin-top: 5px;
-    list-style: none;
-    
+  font-size: 15px;
+  margin-left: 25px;
+  margin-top: 5px;
+  list-style: none;  
 }
 
 div#card2 a{
-    text-decoration: none;
-    color: white;
-    
+  text-decoration: none;
+  color: white;  
 }
 
 div#card2 a:hover{
-    transition: 1s;
-    text-decoration: underline;
-    color: dodgerblue;
+  transition: 1s;
+  text-decoration: underline;
+  color: dodgerblue;
 }
 
 div#card2 p{
-color: gray;
-font-size: 10px;
-margin-top: -1px;
-margin-left: 70px;
+  color: gray;
+  font-size: 10px;
+  margin-top: -1px;
+  margin-left: 70px;
 }
 
 div#card3{
- position: relative;
- width: 200px;
- height: 300px;
- margin-left: 700px ;
- margin-top: -300px ;
- background: rgba(45, 33, 17, 0.55);
- box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
- backdrop-filter: blur (2px);
- border-radius: 8px;
-
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin-left: 700px ;
+  margin-top: -300px ;
+  background: rgba(45, 33, 17, 0.55);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur (2px);
+  border-radius: 8px;
 }
-
 
 div#card3 img{
-    width: 180px;
-    height: 240px;
-    margin-left: 10px ;
-    margin-top: 5px ;
+  width: 180px;
+  height: 240px;
+  margin-left: 10px ;
+  margin-top: 5px ;
 }
 
-
 div#card3 li{
-    font-size: 15px;
-    list-style: none;
-    margin-left: 30px;
-    margin-top: 4px;
+  font-size: 15px;
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 4px;
 }
 
 div#card3 a{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
+
 div#card3 a:hover{
-    transition: 1s;
-    color: dodgerblue;
-    text-decoration: underline;
+  transition: 1s;
+  color: dodgerblue;
+  text-decoration: underline;
 }
 
 div#card3 p{
-    color: gray;
-   font-size: 10px;
-   margin-left: 55px;
+  color: gray;
+  font-size: 10px;
+  margin-left: 55px;
 }
 
 div#card4 {
-position: relative;
-background: rgba(45, 33, 17, 0.55);
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
-backdrop-filter: blur (2px);
-border-radius: 8px;
-height: 300px;
-width: 200px;
-margin-left: 910px;
-margin-top: -300px;
-
+  position: relative;
+  background: rgba(45, 33, 17, 0.55);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur (2px);
+  border-radius: 8px;
+  height: 300px;
+  width: 200px;
+  margin-left: 910px;
+  margin-top: -300px;
 }
 
 div#card4 img{
-    width: 180px;
-    height: 240px;
-    margin-left: 10px;
-    margin-top: 5px;
-
+  width: 180px;
+  height: 240px;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
 div#card4 li{
-    font-size: 15px;
-    list-style: none;
-    margin-left: 25px;
-    margin-top: 5px ;
+  font-size: 15px;
+  list-style: none;
+  margin-left: 25px;
+  margin-top: 5px;
 }
 
 div#card4 a{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 div#card4 a:hover{
-    transition: 1s;
-    color: dodgerblue;
-    text-decoration: underline;
+  transition: 1s;
+  color: dodgerblue;
+  text-decoration: underline;
 }
 
 div#card4 p{
-color: gray;
-font-size: 10px;
-margin-left: 75px;
-
-
+  color: gray;
+  font-size: 10px;
+  margin-left: 75px;
 }
 
 @font-face {
@@ -278,20 +266,20 @@ margin-left: 75px;
 }
 
 footer#rodape p{
-margin-top: 40px;
+  margin-top: 40px;
 }
 
  div#footer{
-   background-color: rgba(57, 37, 11);
-   width: 1450px;
-   height: 60px;
-   margin-top: 50px;
+  background-color: rgba(57, 37, 11);
+  width: 1450px;
+  height: 60px;
+  margin-top: 50px;
 }
 
 div#footer p{
-    position: relative;
-    color: white;
-    margin-left: 500px;
-    margin-top: -20px;
-    top: 15px;
+  position: relative;
+  color: white;
+  margin-left: 500px;
+  margin-top: -20px;
+  top: 15px;
 }

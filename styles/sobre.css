@@ -5,12 +5,11 @@ body{
 }
 
 header#cabecalho  h2{
-position: relative;
+    position: relative;
     margin-left: 130px;
-top: 10px;
-font-weight: bolder;
-color: white;
-
+    top: 10px;
+    font-weight: bolder;
+    color: white;
 }
 
 img#books{
@@ -31,8 +30,8 @@ div#barra{
 }
 
 nav#menu ul{
-display: block;
-list-style: none;
+    display: block;
+    list-style: none;
 }
 
 nav#menu li{
@@ -66,21 +65,23 @@ p{
 
 div#vitor {
     background-color: rgba(57, 37, 11);
-   width: 280px;
-   border-radius: 8px;
-   height: 350px;
-   margin-top: -180px;
-   margin-left: 710px;
-
+    width: 280px;
+    border-radius: 8px;
+    height: 350px;
+    margin-top: -180px;
+    margin-left: 710px;
    
 }
 
+div#vitor:hover{
+    transform: translateY(-5px);
+}
 div#vitor img{
- width: 270px;
- height: 260px;
-border-radius: 5px;
-margin-left: 5px;
-margin-top: 10px;
+   width: 270px;
+   height: 260px;
+   border-radius: 5px;
+   margin-left: 5px;
+   margin-top: 10px;
 
 }
 
@@ -100,12 +101,12 @@ div#vitor a:hover{
 }
 
 div#vitor p{
-    color: rgb(0, 0, 0);
+    color: rgb(212, 161, 90, 0.85);
     margin-left: 25px;
 }
 
 div#ryan{
- background-color: rgba(57, 37, 11);
+   background-color: rgba(57, 37, 11);
    width: 280px;
    border-radius: 8px;
    height: 350px;
@@ -114,12 +115,16 @@ div#ryan{
 
 }
 
+div#ryan:hover{
+   transform: translateY(-5px);
+}
+
 div#ryan img{
- width: 270px;
- height: 260px;
- border-radius: 5px;
- margin-top: 8px;
- margin-left: 5px;
+   width: 270px;
+   height: 260px;
+   border-radius: 5px;
+   margin-top: 8px;
+   margin-left: 5px;
 }
 
 div#ryan h2{
@@ -135,16 +140,13 @@ div#ryan a{
 div#ryan a:hover{
     transition: 1s;
     text-decoration: underline;
-}
-
-div#ryan p{
-    color: black;
-    margin-left: 15px;
     
 }
 
-footer#rodape p{
-margin-top: 40px;
+div#ryan p{
+    color: rgba(212, 161, 90, 0.85);
+    margin-left: 15px;
+    
 }
 
  div#footer{
@@ -158,6 +160,6 @@ div#footer p{
     position: relative;
     color: white;
     margin-left: 500px;
-    margin-top: -20px;
+    margin-top: 270px;
     top: 15px;
 }

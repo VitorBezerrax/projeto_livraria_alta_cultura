@@ -32,8 +32,8 @@ div#barra{
 
 
 nav#menu ul{
-display: block;
-list-style: none;
+   display: block;
+   list-style: none;
 }
 
 
@@ -43,7 +43,6 @@ nav#menu li{
     left: 1100px;
     padding: 15px;
     top: 20px;   
-
 }
 
 nav#menu li a{
@@ -57,13 +56,12 @@ nav#menu li a:hover{
     color: yellow;
 }
 
-
 h1 {
     text-align: center;
     color: grey;
     margin-top: 40px;
-
   }
+
   .search-container {
     max-width: 400px;
     margin: 0vh auto;
@@ -94,62 +92,54 @@ h1 {
    backdrop-filter: blur(5px);
    box-shadow: 0 0 20px rgba(0,0,0,0.3);
    top: -60px;
-
   }
 
   .card-products:hover{
-
-    transform: translateY(-10px);
-
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-
+   transform: translateY(-10px);
+   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
   
   .card-products img {
-       width: 180px;
-
-    height: 270px;
-
-    object-fit: cover;
-
-    border-radius: 10px;
+   width: 180px;
+   height: 270px;
+   object-fit: cover;
+   border-radius: 10px;
 
   }
   
 .card-products h3:hover{
-    color: white;
-    margin-top: 15px;
-    font-size: 1.5rem;
-    text-decoration: underline;
+   color: white;
+   margin-top: 15px;
+   font-size: 1.5rem;
+   text-decoration: underline;
 
 }
 
 .card-products p{
-  color: gray;
-  font-size: 15px;
-  margin-top: -20px;
+   color: gray;
+   font-size: 15px;
+   margin-top: -20px;
 }
   
   .emoji-buttons-container {
-    text-align: center;
+   text-align: center;
   }
 
 
   /* parte de estilizar o botão dos nomes dos autores */
   .emoji-button {
-     background-color: rgba(255, 255, 255, 0.027);
-     backdrop-filter: blur(8px);
-     border-top: 1px solid rgba(255, 255, 255, 0.4);
-     border-left: 1px solid rgba(255, 255, 255, 0.3);
-     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
-     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.027);
+    backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+    border-radius: 10px;
     color: black;
     font-size: 30px;
     border: none;
     padding: 10px;
     margin: 10px;
-   margin-top: -5px;
-
+    margin-top: -5px;
   }
   
   /* Hover effect */
@@ -161,16 +151,15 @@ h1 {
 
   #shopContent{
     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     gap: 20px 120px;
-      width: 90%;
-    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 120px;
+    width: 90%;
     margin-top: 40px;
     margin-left: 80px;
   }
 
   footer#rodape p{
-margin-top: 40px;
+   margin-top: 40px;
 }
 
  div#footer{
@@ -181,9 +170,9 @@ margin-top: 40px;
 }
 
 div#footer p{
-    position: relative;
-    color: white;
-    margin-left: 500px;
-    margin-top: -20px;
-    top: 15px;
+   position: relative;
+   color: white;
+   margin-left: 500px;
+   margin-top: -20px;
+   top: 15px;
 }
