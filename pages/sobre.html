@@ -7,54 +7,54 @@
     <link rel="stylesheet" href="/styles/sobre.css">
 </head>
 <body>
-    
     <header id="cabecalho">
       <h2>Livraria Alta Cultura</h2>
-      <img  id="books" src="/assets/images/books.png" alt="">
+      <img id="books" src="/assets/images/books.png" alt="Logo da Livraria Alta Cultura">
 
       <div id="barra">
-        
-        <nav id="menu">
-      
-      <ul>
-
-        <li> <a href="/index.html" target="_self"> Início </a></li>
-        <li> <a href="/pages/livros.html" target="_blank"> Livros </a></li>
-        <li> <a href="/pages/sobre.html" target="_blank"> Sobre </a></li>
-
-        </ul>
+        <nav id="menu" aria-label="Navegação principal">
+          <ul>
+            <li><a href="/index.html" target="_self">Início</a></li>
+            <li><a href="/pages/livros.html" target="_self">Livros</a></li>
+            <li><a href="/pages/sobre.html" target="_self">Sobre</a></li>
+          </ul>
         </nav>
       </div>
-</header>
+    </header>
 
-      <hgroup>
-      <h1>Sobre Nós</h1>
-      <h4> Conheça a história por trás da Livraria Alta Cultura</h4>
-      </hgroup>
+    <main id="sobre-page">
+      <section id="sobre-box" aria-labelledby="sobre-titulo">
+        <article id="sobre-texto">
+          <h1 id="sobre-titulo">Sobre Nós</h1>
+          <span class="linha"></span>
+          <p>
+            A Livraria Alta Cultura nasceu da paixão de dois amigos pela leitura, filosofia e conhecimento.
+            Nosso objetivo é criar um espaço onde as pessoas possam encontrar livros capazes de transformar
+            ideias, despertar reflexões e ampliar o repertório cultural.
+          </p>
+        </article>
 
-      <p> A Livraria Alta Cultura nasceu da união de dois amigos apaixonados por livros, filosofia e conhecimento.<br> O projeto surgiu com a ideia de criar um espaço digital <br> onde a leitura fosse mais do que entretenimento: uma ferramenta de transformação intelectual e pessoal.</p>
+        <div id="fundadores" aria-label="Fundadores da livraria">
+          <article class="card-fundador">
+            <img src="/assets/images/vitor.jpg" alt="Foto do fundador principal">
+            <h3>Vitor</h3>
+            <p>Cofundador</p>
+            <span class="linha"></span>
+          </article>
 
+          <article class="card-fundador">
+            <img src="/assets/images/ryan.jpg" alt="Foto do segundo fundador">
+            <h3>Ryan</h3>
+            <p>Co-autor</p>
+            <span class="linha"></span>
+          </article>
+        </div>
+      </section>
+    </main>
 
-      <hr>
-
-<div id="vitor"> 
-  <img src="/assets/images/vitor.jpg" alt="Vitor">
-  <h2><a href="https://www.instagram.com/vitorbezerrax/" target="_blank"> Vitor </a></h2>
-  <p> Autor do projeto &  Dev. Front-End</p>
- 
-</div>
-
-
-
-<div id="ryan">
-<img src="/assets/images/ryan.jpg" alt="Ryan">
-<h2> <a href="https://www.instagram.com/ryangcdev/" target="_blank"> Ryan </a> </h2>
-<p>Co-autor do projeto & Dev. Full-Stack</p>
-</div>
-
-
-
-  <div id="footer"><p>© 2026 Livraria Alta Cultura. Todos os direitos reservados.</p></div>
+    <footer id="footer">
+      <p>© 2026 Livraria Alta Cultura. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
